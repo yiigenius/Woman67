@@ -13,3 +13,29 @@ li{margin-left: 23px; list-style: disc;}
 .all {
 	font-family: $font-verdana;
 }
+
+.path {
+	font-size: $fs-12;
+}
+
+.up-header {
+	overflow: hidden;
+	background-image: url($images-dir + 'bg_up_header.png');
+	height: 100px;
+
+	img {
+		@include margin-center;
+		display: block;
+	}
+}
+
+.header {
+	height: 100px;
+	background-color: $color-white;
+}
+
+.b-center {
+	width: $width-all;
+	@include margin-center;
+	position: relative;
+}

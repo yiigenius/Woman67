@@ -1,7 +1,14 @@
 $images-dir: '../i/';
 
+$color-white: #fff;
 $color-blue: #00619a;
 $color-green: #19aa4b;
 
 $font-georgia: Georgia,"Times New Roman",Times,serif;
 $font-verdana: Verdana, Geneva, sans-serif;
+
+$fs-12: 12px;
+
+$width-all: 973px;
+
+@mixin margin-center: 0 auto;

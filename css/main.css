@@ -26,4 +26,19 @@ li {
 .all {
   font-family: Verdana, Geneva, sans-serif; }
 
+.path {
+  font-size: 12px; }
+
+.up-header {
+  overflow: hidden;
+  background-image: url("../i/bg_up_header.png");
+  height: 100px; }
+  .up-header img {
+    margin: 0 auto;
+    display: block; }
+
+.header {
+  height: 100px;
+  background-color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
