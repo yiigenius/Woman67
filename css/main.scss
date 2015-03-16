@@ -1,0 +1,15 @@
+@import "settings";
+
+body {background-image: url($images-dir + 'bg_page.png');}
+
+a {color: $color-blue;}
+a:hover {color: $color-green;}
+
+h1 {font-family: $font-georgia; font-weight: normal; font-style: 30px; margin: 10px 0 23px 0;}
+h2 {font-family: $font-georgia; font-weight: normal; font-style: 24px; margin: 10px 0 23px 0;}
+
+li{margin-left: 23px; list-style: disc;}
+
+.all {
+	font-family: $font-verdana;
+}
